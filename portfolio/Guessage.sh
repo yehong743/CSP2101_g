@@ -61,4 +61,4 @@ else #if the two previous conditions didnt succeed then terminate the script
     echo "Thankyou for playing" 
     exit
 fi
-#letting the user know that they have guessed the correct age with number of guesses they've taken                                                                                                                                              
+                                                                                                                                           
