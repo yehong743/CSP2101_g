@@ -87,17 +87,16 @@ function printHelp() {
 }
 
 # download all
-if [[ $1 == "-a" ]];then 
+if [[ $1 == "-a" ]]; then 
 	downloadAll
 # download a specific thumbnail
-elif [[ $1 == "-s" ]];then 
+elif [[ $1 == "-s" ]]; then 
 	downloadSpecificThumbnail $2
 # download images in a range
-elif [[ $1 == "-r" ]];then 
+elif [[ $1 == "-r" ]]; then 
 	downloadInRange $2 $3
 # download a specified number of images
-elif [[ $1 == "-n" ]];
-then 
+elif [[ $1 == "-n" ]]; then 
 	downloadSpecificNum $2
 else
 	printHelp
