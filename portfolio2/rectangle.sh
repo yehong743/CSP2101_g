@@ -1,4 +1,5 @@
 #!/bin/bash
+#Student Name: Hong Ye Student ID: 10470951
 inFile="rectangle.txt" 
 outFile="rectangle_f.txt"
 touch $outFile  #create a file if the output file does not exist
